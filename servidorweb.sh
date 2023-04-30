@@ -2,13 +2,13 @@
 
 echo "Atualizando"
 
-apt update -y
-apt upgrade -y
+apt-get update -y
+apt-get upgrade -y
 
 echo "Instalando"
 
-apt install apache2 -y
-apt install unzip -y
+apt-get install apache2 -y
+apt-get install unzip -y
 
 echo "copiando projeto"
 cd /tmp
